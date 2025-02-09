@@ -73,7 +73,7 @@ def getone(values, pos, adc, norm):
     df = magpy.getB(
         sources='Cylinder',
         observers=pixels,
-        magnetization=(0, 0, magnet_strong),
+        polarization=(0, 0, magnet_strong),
         dimension=(magnet_radius * 2, magnet_height),
         position=pos,
         orientation=orientation,
